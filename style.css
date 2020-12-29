@@ -11,9 +11,7 @@ body {
 
 .container {
   width: 1140px; /* Usual width of most screens */
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 
 .clearfix:after {
@@ -47,6 +45,9 @@ p {
 
 .author-text {
   font-size: 22px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
 }
 
 .blog-post {
@@ -61,5 +62,23 @@ p {
 }
 
 .author-box {
-  background-color: #ffffff;
+  padding-top: 20px;
+  border-top: 1px solid rgb(148, 148, 148);
+}
+
+.other {
+  margin-bottom: 40px;
+}
+
+.author-box img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid black;
+  float: left;
+}
+
+.blog-post img {
+  height: 150px;
+  width: auto;
 }
